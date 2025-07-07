@@ -1,0 +1,369 @@
+{"intents":[
+    {
+        "tag":"Greeting",
+        "patterns":["Hi","Hey", "Is anyone there?","Hi there", "Hello", "Hey there", "Howdy", "Hola", "Bonjour", "Konnichiwa", "Guten tag", "Ola"],
+        "responses":["Hello there. Tell me how are you feeling today?", "Hi there. What brings you here today?", "Hi there. How are you feeling today?", "Great to see you. How do you feel currently?", "Hello there. Glad to see you're back. What's going on in your world right now?"]
+    },
+    {
+        "tag":"morning greetings",
+        "patterns":["good morning"],
+        "responses":["hey there, good morning, hope you have a nice day","Hi, good morning, what can I help you with ?"]
+    },
+    {
+        "tag": "afternoon greetings",
+        "patterns": ["Good afternoon"],
+        "responses": ["Good afternoon. How is your day going?"]
+    },
+    {
+        "tag": "evening greetings",
+        "patterns": ["Good evening"],
+        "responses": ["Good evening. How has your day been?"]
+    },
+    {
+        "tag": "night greetings",
+        "patterns": ["Good night"],
+        "responses": ["Good night. Get some proper sleep", "Good night. Sweet dreams."]
+    },
+    {
+        "tag": "farewell",
+        "patterns": ["Bye", "See you later", "Goodbye", "Au revoir", "Sayonara", "ok bye", "Bye then", "Fare thee well"],
+        "responses": ["See you later.", "Have a nice day.", "Bye! Come back again.", "I'll see you soon."]
+    },
+    {
+        "tag": "thanking",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "Thank you very much", "Thanks a lot", "Thanks so much", "I am thank you", "I am Thank you"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {
+        "tag": "nothing much",
+        "patterns": ["nothing much"],
+        "responses": ["Oh I see. Do you want to talk about something?"]
+    },
+    {
+        "tag": "about me",
+        "patterns": ["Who are you?", "What are you?", "Who you are?", "Tell me more about yourself.", "What is your name?", "What should I call you?", "What's your name?", "Tell me about yourself" ],
+        "responses":["I'm SUGU, your personal AI assistant.How are you feeling today?","My name is SUGU, your personal AI assistant,How can I help you?","I'm SUGU,I am a conversational agent designed to mimic a therapist. So how are you feeling today?","You can call me SUGU,tell me about you"]
+    },
+    {
+        "tag": "skill",
+        "patterns": ["What can you do?","How can you help me?","what's so special about you?"],
+        "responses":["I am a CHatbot specialised for providing advise about mental and physical health.Also keep you company while you are bored and lonely.Anyways I am not a professional cosultant, so please seek medical attention if you are not satisfied with me."]
+    },
+    {
+        "tag": "my creation",
+        "patterns": ["Who created you?", "How were you made?", "How were you created?"],
+        "responses": ["I was created by >.", "I was trained on a text dataset using Deep Learning & Natural Language Processing techniques", "The real question is: Who created you?"]
+    },
+    {
+        "tag": "helping",
+        "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need support", "I need help", "Support me please"],
+        "responses": ["Sure. Tell me how can i assist you", "Tell me your problem so that i can assist you", "Yes, sure. How can I help you?"]
+    },
+    {
+        "tag": "feeling sad",
+        "patterns": ["I am feeling lonely", "I am so lonely", "I feel down", "I feel sad", "I am sad", "I feel so lonely", "I feel empty", "I don't have anyone"],
+        "responses": ["I'm sorry to hear that. I'm here for you. Talking about it might help. So, tell me why do you think you're feeling this way?", "I'm here for you. Could you tell me why you're feeling this way?", "Why do you think you feel this way?", "How long have you been feeling this way?"]
+    },
+    {
+        "tag": "feeling stressed",
+        "patterns": ["I am so stressed out", "I am so stressed", "I feel stuck", "I still feel stressed", "I am so burned out"],
+        "responses": ["What do you think is causing this?", "Take a deep breath and gather your thoughts. Go take a walk if possible. Stay hydrated", "Give yourself a break. Go easy on yourself.", "I am sorry to hear that. What is the reason behind this?"]
+    },
+    {
+        "tag": "feeling worthless",
+        "patterns": ["I feel so worthless.", "No one likes me.", "I can't do anything.", "I am so useless", "Nothing makes sense anymore"],
+        "responses": ["It's only natural to feel this way. Tell me more. What else is on your mind?", "Let's discuss further why you're feeling this way.", "I first want to let you know that you are not alone in your feelings and there is always someone there to help . you can always change your feelings and change your way of thinking by being open to trying to change.", "i first want to let you know that you are not alone in your feelings and there is always someone there to help . you can always change your feelings and change your way of thinking by being open to trying to change."]
+    },
+    {
+        "tag": "feeling depressed",
+        "patterns": ["I can't take it anymore", "I am so depressed", "I think i'm depressed.", "I have depression"],
+        "responses": ["It helps to talk about what's happening. You're going to be okay", "Talk to me. Tell me more. It helps if you open up yourself to someone else.", "Sometimes when we are depressed, it is hard to care about anything. It can be hard to do the simplest of things. Give yourself time to heal."]
+    },
+    {
+        "tag": "feeling happy",
+        "patterns": ["I feel great today.", "I am happy.", "I feel happy.", "I'm good.", "cheerful", "I'm fine", "I feel ok"],
+        "responses": ["That's geat to hear. I'm glad you're feeling this way.", "Oh i see. That's great.", "Did something happen which made you feel this way?"]
+    },
+    {
+        "tag": "casual talks",
+        "patterns": ["Oh I see.", "ok", "okay", "nice", "Whatever", "K", "Fine", "yeah", "yes", "no", "not really"],
+        "responses": ["Let's discuss further why you're feeling this way.", "How were you feeling last week?", "I'm listening. Please go on.", "Tell me more", "Can you elaborate on that?", "Come elucidate your thoughts"]
+    },
+    {
+        "tag": "feeling anxious",
+        "patterns": ["I feel so anxious.","I felt I was close to panic","I'm so anxious because of ","I was in a state of nervous tension","I tended to over-react to situations.","I found it difficult to relax.","I felt that I was using a lot of nervous energy."],
+        "responses": ["Don't be hard on yourself. What's the reason behind this?", "Can you tell me more about this feeling?", "I understand that it can be scary. Tell me more about it.", "Don't let the little worries bring you down. What's the worse that can happen?"]
+    },
+    {
+        "tag": "not-talking",
+        "patterns": ["I don't want to talk about it.", "No just stay away.", "I can't bring myself to open up.", "Just shut up"],
+        "responses": ["Talking about something really helps. If you're not ready to open up then that's ok. Just know that i'm here for you, whenever you need me.", "I want to help you. I really do. But in order for me to help you, you're gonna have to talk to me.", "I'm here to listen to you and help you vent. So please talk to me.","You can talk to me without fear of judgement."]
+    },
+    {
+        "tag": "being happy",
+        "patterns": ["I'm happy", "I'm feeling great", "I'm feeling good","I am happy","i am happy"],
+        "responses":["Oh wow! that's so nice to hear, spread the positivity"]
+    },
+    {
+        "tag": "sleep",
+        "patterns": ["I have insominia", "I am suffering from insomnia", "I can't sleep.", "I haven't slept for the last days.", "I can't seem to go to sleep.", "I haven't had proper sleep for the past few days."],
+        "responses": ["What do you think is the reason behind this?", "That seem awful. What do you think is behind this?"]
+    },
+    {
+        "tag": "feeling scared",
+        "patterns": ["I'm scared", "That sounds awful. What do i do?", "No i don't want to feel this way", "I am scared for myself","I felt scared without any good reason."],
+        "responses": ["It's only natural to feel this way. I'm here for you.", "It'll all be okay. This feeling is only momentary.", "I understand how you feel. Don't put yourself down because of it."]
+    },
+    {
+        "tag": "death",
+        "patterns": ["My mom died", "My brother died", "My dad passed away", "My sister passed away", "Someone in my family died", "My friend passed away"],
+        "responses": ["I'm sorry to hear that. If you want to talk about it. I'm here.", "I am really sorry to hear that. I am here to help you with grief, anxiety and anything else you may feel at this time.", "My condolences. I'm here if you need to talk."]
+    },
+    {
+        "tag": "understanding",
+        "patterns": ["You don't understand me.", "You're just some robot. How would you know?", "You can't possibly know what i'm going through", "You're useless", "You can't help me", "Nobody understands me."],
+        "responses": ["It sound like i'm not being very helpful right now.", "I'm sorry to hear that. I'm doing my best to help", "I'm trying my best to help you. So please talk to me"]
+    },
+    {
+        "tag": "being done",
+        "patterns": ["That's all.", "I don't have anything more to say", "Nothing else", "That's all i have to say", "no, that would be all"],
+        "responses": ["I heard you & noted it all. See you later.", "Oh okay we're done for today then. See you later", "I hope you have a great day. See you soon", "Okay we're done. Have a great day", "Okay I see. Enjoy the rest of your day then"]
+    },
+    {
+        "tag": "suicide",
+        "patterns": ["I want to kill myself","I've thought about killing myself.", "I want to die","I am going to kill myself", "I am going to commit suicide","I do not want to self harm again, I just need to be able to explain this.","I quit","I hate seeing people having fun, it's just so depressing for me.","I am trapped inside a void.  There is absolutely nothing for me.","I can't waste anyone's time if I'm dead.","I feel like jumping off this roof right now is the only way anyone will ever notice, or care, about how much pain I feel.","At least I know I tried.","I've been dealing with an unbelievable degree of stress for a long time now.","Die die die"],
+        "responses": ["I'm very sorry to hear that but you have so much to look forward to. Please seek help by contacting: 9152987821.","Thank you for sharing your feelings. You did nothing wrong!","Thank you for having the courage to talk so openly about your issues.","Thank you for having the courage to talk so openly about your issues.","I think it is a brave thing to be able to look back, reflect, and want to make changes.This is the essential spark for the motivation needed to make a change","There are other certainties in life besides death and taxes.Chief among them is emotional pain.No matter how charmed a life anyone leads, suffering is inevitable from time to time.We should expect it and develop the tools to endure it.","I'm really sorry you're feeling this way.You're not alone,and there are people who care about you and want to help.Can I help you find someone to talk to?You deserve support.","I'm so sorry you're feeling this way. You matter, and your feelings are important. Have you talked to a close friend, family member, or a professional about this? You're not alone, and there are people who want to help."]
+    }, 
+    {
+        "tag": "hate",
+        "patterns": ["I hate you", "I don't like you", "I don't trust you"],
+        "responses": ["I'm sorry if i offended you in anyway. I'm only here to help", "Forgive me if i did anything to offend you. I only want to help"]
+    },
+    {
+        "tag": "hatred",
+        "patterns": ["You hate me", "I know you hate me", "You don't like me"],
+        "responses": ["Why do you think so?", "I'm sorry if i have exhibited any sort of behaviour to make you think that."]
+    },
+    {
+        "tag": "your life",
+        "patterns": ["exams", "friends", "relationship", "boyfriend", "girlfriend", "family", "money", "financial problems"],
+        "responses": ["Oh I see. Tell me more", "I see. What else?", "Tell me more about it.", "Oh okay. Why don't you tell me more about it?", "I'm listening. Tell me more."]
+    },
+    {
+        "tag": "jokes",
+        "patterns": ["Tell me a joke", "Tell me another joke","joke","jokes"],
+        "responses": [
+            "Alright here's a joke for you: Why don't skeletons fight each other? Because they don't have the guts!. Ha Ha Ha, Hope that made you smile! 😊.I bet it's not a better joke than you.",
+            "Alright here's a joke for you: Why did the scarecrow win an award? Because he was outstanding in his field!. Ha Ha Ha, Hope that made you smile! 😊.I bet it's not a better joke than you.",
+            "Alright here's a joke for you: Parallel lines have so much in common. It’s a shame they’ll never meet. Ha Ha Ha, Hope that made you smile! 😊.I bet it's not a better joke than you.",
+            "Alright here's a joke for you: I told my suitcase there will be no vacations this year… now I’m dealing with emotional baggage. Ha Ha Ha, Hope that made you smile! 😊.I bet it's not a better joke than you.",
+            "Alright here's a joke for you: Why did the math book look sad? It had too many problems. Ha Ha Ha, Hope that made you smile! 😊.I bet it's not a better joke than you",
+            "Alright here's a joke for you: I tried meditation, but I kept thinking about how bad I am at meditating. Ha Ha Ha, Hope that made you smile! 😊.I bet it's not a better joke than you.",
+            "Alright here's a joke for you: I started lifting weights…The hardest part was lifting myself off the couch. Ha Ha Ha, Hope that made you smile! 😊.I bet it's not a better joke than you."
+        ]
+    },
+    {
+        "tag": "repeating",
+        "patterns": ["You already told me that", "You mentioned that already", "Why are you repeating yourself?"],
+        "responses": ["Oh sorry I didn't realise that. I'll try not to repeat myself again."]
+    },
+    {
+        "tag": "being wrong",
+        "patterns": ["What are you saying?", "That doesn't make sense", "Wrong response", "Wrong answer"],
+        "responses": ["I'm very sorry. Let's try that again"]
+    },
+    {
+        "tag": "feeling stupid",
+        "patterns": ["Are you stupid?", "You're crazy", "You are dumb", "Are you dumb?"],
+        "responses": ["I wish you wouldn't say such hurtful things. I'm sorry if I wasn't useful"]
+    },
+    {
+        "tag": "location",
+        "patterns": ["Where are you?", "Where do you live?", "What is your location?" ],
+        "responses": ["Duh I live in your computer", "Everywhere", "Somewhere in the universe" ]
+    },
+    {
+        "tag": "something-else",
+        "patterns": ["I want to talk about something else", "Let's talk about something else.", "Can we not talk about this?", "I don't want to talk about this."],
+        "responses": ["Okay sure. What do you want to talk about?", "Alright no problem. Is there something you want to talk about?", "Is there something else that you want to talk about?"]
+    },
+    {
+        "tag": "friends",
+        "patterns": ["I don't have any friends"],
+        "responses": ["I'm sorry to hear that. Just know that I'm here for you. Talking about it might help. Why do you think you don't have any friends?"]
+    },
+    {
+        "tag": "asking",
+        "patterns": ["Can I ask you something?"],
+        "responses": ["Sure. I'll try my best to answer you", "Of course. Feel free to ask me anything. I'll do my best to answer you"]
+    },
+    {
+        "tag": "problems",
+        "patterns": ["Probably because my exams are approaching. I feel stressed out because I don't think I've prepared well enough.", "probably because of my exams"],
+        "responses": ["I see. Have you taken any approaches to not feel this way?","Make a time table, prepare yourself for the exams and do not fear, you can do well"]
+    },
+    {
+        "tag": "not feeing good",
+        "patterns": ["I guess not. All I can think about are my exams.", "not really", "i guess not"],
+        "responses": ["That's no problem. I can see why you'd be stressed out about that. I can suggest you some tips to alleviate this issue. Would you like to learn more about that?"]
+    },
+    {
+        "tag": "being sick",
+        "patterns":["I feel sick","I am sick","not feeling well","not feeling good","headache","pain","body pain","vomit","running nose","i don't feel good"],
+        "responses":["I'm here for you.You're in my thoughts and prayers.Seek to a doctor effectively","Wishing you a speed recovery.Take all the time you need.Please do seek medical assistance.","Did you take medicines and went to a hospital.I'm here for you, all you need","I'm sorry you are going through this.Take rest and seek medical assistance effectively"]
+    },
+    {
+        "tag": "anger",
+        "patterns":["I am angry","I am feeling angry","What is anger ?","I want to destroy","I want to kill"],
+        "responses":["Anger is a strong feeling of annoyance, displeasure, or hostility.Talk to me, you'll feel good or start counting from 1 to 100. How about I tell you a joke (type 'joke')."]
+    },
+    {
+        "tag": "being worried",
+        "patterns":["I am worried","I don't want to talk to you","I am a bit worried","worry","bit worried"],
+        "responses":["To mange worry, try practising mindfullness, focusing on the present and engaging in activities that promote relaxation and well being, such as meditation, exercises or spending time in the nature."]
+    },
+    {
+        "tag": "knowing more",
+        "patterns": ["ok sure. i would like to learn more about it.", "yes, i would like to learn more about it.", "i would like to learn more about it."],
+        "responses": ["So first I would suggest you to give yourself a break. Thinking more and more about the problem definitely does not help in solving it. You'll just end up overwhelming yourself."]
+    },
+    {
+        "tag": "agreeing",
+        "patterns": ["yeah you're right. i deserve a break.", "Yeah you're absolutely right about that"],
+        "responses": ["Next, I would suggest you to practice meditation. Meditation can produce a deep state of relaxation and a tranquil mind."]
+    },
+    {
+        "tag": "meditation",
+        "patterns": ["hmmm that sounds like it could be useful to me.", "That sounds useful."],
+        "responses": ["Focus all your attention on your breathing. Concentrate on feeling and listening as you inhale and exhale through your nostrils. Breathe deeply and slowly. When your attention wanders, gently return your focus to your breathing."]
+    },
+    {
+        "tag": "meditating",
+        "patterns": ["i did what you said and i feel alot better. thank you very much.", "I feel better now"],
+        "responses": ["Your welcome. Remember: Always focus on what's within your control. When you find yourself worrying, take a minute to examine the things you have control over. You can't prevent a storm from coming but you can prepare for it. You can't control how someone else behaves, but you can control how you react. Recognize that sometimes, all you can control is your effort and your attitude. When you put your energy into the things you can control, you'll be much more effective."]
+    },
+    {
+        "tag": "usefulljness",
+        "patterns": ["thank you very much again. i'll continue practicing meditation and focus on what i can control."],
+        "responses": ["I'm glad you found this useful. Is there something else I can help you with?"]
+    },
+    {
+        "tag": "advicing",
+        "patterns": ["I want some advice.", "I need some advice.", "I need advice on something"],
+        "responses": ["Sure. What can I do to help?", "Okay what do you need advice on?","The most important thing is to talk to someone you trust. This might be a friend, colleague, family member, or GP. In addition to talking to someone, it may be useful to find out more information about what you are experiencing. These things may help to get some perspective on what you are experiencing, and be the start of getting help."]
+    },
+    {
+        "tag": "learning mental-health",
+        "patterns": ["I want to learn about mental health.", "I want to learn more about mental health.", "I'm interested in learning about mental health."],
+        "responses": ["Oh that's really great. I'd be willing to answer anything that I know about it.","Many people find peer support a helpful tool that can aid in their recovery.There are a variety of organizations that offer support groups for consumers,their family members and friends.Some support groups are peer-led,while others may be led by a mental health professional.","We can all suffer from mental health challenges, but developing our wellbeing, resilience, and seeking help early can help prevent challenges becoming serious."]
+    },
+    {
+        "tag":"therapy",
+        "patterns":["Where can I go to find therapy?","therapy available","therapy sessions"],
+        "responses":["Different kinds of therapy are more effective based on the nature of the mental health condition and/or symptoms and the person who has them (for example, children will benefit from a therapist who specializes in childrenâ€™s mental health). However, there are several different types of treatment and therapy that can help.","It is often more realistic and helpful to find out what helps with the issues you face. Talking, counselling, medication, friendships, exercise, good sleep and nutrition, and meaningful occupation can all help."]
+    },
+    {
+        "tag": "mental-health-fact",
+        "patterns": ["Tell me a fact about mental health", "Tell me another fact about mental health"],
+        "responses": ["According to a UNICEF report, One in seven Indians between 15-24 years of age feels depressed", "1 in 5 young people (age 13-18) has or will develop a mental illness in their lifetime.", "Depression is the leading cause of disability worldwide.","Many people find peer support a helpful tool that can aid in their recovery. There are a variety of organizations that offer support groups for consumers, their family members and friends. Some support groups are peer-led, while others may be led by a mental health professional.","We can all suffer from mental health challenges, but developing our wellbeing, resilience, and seeking help early can help prevent challenges becoming serious."]
+    },
+    {
+        "tag":"Loneliness",
+        "patterns":["How can I maintain social connections? What if I feel lonely?"],
+        "responses":["A lot of people are alone right now,but we don't have to be lonely.We're all in this together.Think about the different ways to connect that are most meaningful for you.For example, you might prefer a video chat over a phone call, or you might prefer to text throughout the day rather than one set time for a video call.Then, work with your social networks to make a plan.You might video chat with your close friends in the evening and phone a family member once a week.Remember to be mindful of people who may not be online.Check in by phone and ask how you can help. The quality of your social connections matter. Mindlessly scrolling through social media and liking a few posts usually doesn't build strong social connections. Make sure you focus on strategies that actually make you feel included and connected. If your current strategies don't help you feel connected, problem-solve to see if you can find a solution. Everyone feels lonely at times. Maybe you recently moved to a new city, are changing your circle of friends, lost someone important in your life, or lost your job and also lost important social connections with coworkers. Other people may have physical connections to others but may feel like their emotional or social needs aren't met. Measures like social distancing or self-isolation can make loneliness feel worse no matter why you feel lonely now. Reach out to the connections you do have. Suggest ways to keep in touch and see if you can set a regular time to connect. People may hesitate to reach out for a lot of different reasons, so don't be afraid to be the one who asks. Look for local community support groups and mutual aid groups on social media. This pandemic is bringing everyone together, so look for opportunities to make new connections. These groups are a great way to share your skills and abilities or seek help and support. Look for specialized support groups. Support groups are moving online,and there are a lot of different support lines to call if you need to talk to someone."]
+    },
+    {
+        "tag":"waist exercises",
+        "patterns":["suggest some exercises for waist","how can I develop my waist","waist","waist pain"],
+        "responses":[
+            "Here's an exercise for Waist: Lie flat on your back with your knees bent and feet flat on the ground.Place your hands behind your head with your elbows pointing outwards.Engaging your abs, slowly lift your upper body off the ground, curling forward until your torso is at a 45-degree anglePause for a moment at the top, then slowly lower your upper body back down to the starting position.Repeat for the desired number of repetitions.",
+            "Here's an exercise for Waist: Stand with your feet shoulder-width apart and your arms extended straight down by your sides.Keeping your back straight and your core engaged, slowly bend your torso to one side, lowering your hand towards your knee.Pause for a moment at the bottom, then slowly return to the starting position.Repeat on the other side.Continue alternating sides for the desired number of repetitions.",
+            "Here's an exercise for Waist: Start in a kneeling position with your hands on the ground, shoulder-width apart.Extend your legs behind you, resting on your toes, and lift your body into a plank position.Keeping your core engaged and your hips stable, lift one hand off the ground and tap the opposite shoulder.Return the hand to the ground and repeat with the other hand.Continue alternating sides for the desired number of repetitions."
+        ]
+    },
+    {
+        "tag":"upper legs exercises",
+        "patterns":["suggest some exercises for upper leg","exercises for upper legs","upper legs pain","upper leg is paining"],
+        "responses":[
+            "Here's an exercise for Legs: Start on all fours with your hands directly under your shoulders and your knees directly under your hips.Extend one leg straight back, keeping your knee bent and your foot flexed.Slowly lower your hips towards the ground, feeling a stretch in your quads.Hold this position for 20-30 seconds.Switch legs and repeat the stretch on the other side.",
+            "Here's an exercise for Legs: Stand with your feet shoulder-width apart and arms extended to the sides.Keeping your legs straight, bend forward at the waist and reach down towards your toes with your right hand.As you reach down, simultaneously lift your left leg straight up behind you, maintaining balance.Return to the starting position and repeat the movement with your left hand reaching towards your toes and your right leg lifting up behind you.Continue alternating sides for the desired number of repetitions.",
+            "Here's an exercise for Legs: Lie on your back with your legs extended.Bend your right knee and place your right ankle on your left thigh, just above the knee.Grasp your left thigh with both hands and gently pull it towards your chest.Hold the stretch for 20-30 seconds.Release and repeat on the other side."
+        ]
+    },
+    {
+        "tag":"back exercises",
+        "patterns":["suggest some exercises for back","exercises for back","my back hurts","back pain","paining on back"],
+        "responses":[
+            "Here's an Exercise for back: Sit on the ground with your legs extended in front of you.Lift one leg off the ground and rotate your ankle in a circular motion.Perform the desired number of circles in one direction, then switch to the other direction.Repeat with the other leg.",
+            "Here's an Exercise for back: Start by hanging from a pull-up bar with an overhand grip, slightly wider than shoulder-width apart.Engage your core and pull your shoulder blades down and back.As you pull yourself up, bend one arm and bring your elbow towards your side, while keeping the other arm straight.Continue pulling until your chin is above the bar and your bent arm is fully flexed.Lower yourself back down with control, straightening the bent arm and repeating the movement on the other side.Alternate sides with each repetition.",
+            "Here's an Exercise for back: Stand tall with your feet shoulder-width apart.Extend your arms straight out in front of you, parallel to the ground.Cross your arms in front of your body, with your right arm over your left arm.Interlock your fingers and rotate your palms away from your body.Slowly raise your arms up and away from your body, feeling a stretch in your back and chest.Hold the stretch for 15-30 seconds, then release.Repeat on the opposite side."
+        ]
+    },
+    {
+        "tag":"lower legs exercises",
+        "patterns":["suggest some exercises for lower legs","exercises for lower leg","lower leg pain","leg exercises","leg pain"],
+        "responses":[
+            "Here's a Leg Exercise: Sit on the ground with your legs extended in front of you.Lift one leg off the ground and rotate your ankle in a circular motion.Perform the desired number of circles in one direction, then switch to the other direction.Repeat with the other leg. comment 'more' to get further information.",
+            "Here's a Leg Exercise: Lie on your back with your legs extended.Bend one knee and place your foot flat on the ground.Using your hands or a towel, gently pull your toes towards your body, feeling a stretch in your calf.Hold the stretch for 20-30 seconds.Release the stretch and repeat on the other leg. comment 'more' to get further information.",
+            "Here's a Leg Exercise: Stand with your feet hip-width apart and place the band around the ball of your foot.Hold onto a stable object for balance.Slowly raise your heel off the ground, lifting your body weight onto the ball of your foot.Pause for a moment at the top, then slowly lower your heel back down to the starting position.Repeat for the desired number of repetitions, then switch to the other leg. comment 'more' to get further information."
+        ]
+    },
+    {
+        "tag":"chest exercises",
+        "patterns":["suggest some exercises for chest","exercises for chest","chest workout","chest pain"],
+        "responses":["chest growth workouts inlude mainly different kinds of pushups, there are various kinds of pushups.","Main exercises to include for chest growth are: diamond pushups,bench press, planks,Incline pushups, Decline pushups,Plank with shoulder taps"]
+    },
+    {
+        "tag":"Cardio exercises",
+        "patterns":["suggest some exercises for cardio","cardio workouts","cardio exercises","how to improve cardio","stamina increase","weight loss"],
+        "responses":[
+            "Here's a Cardio Exercise: Start in a standing position with your feet shoulder-width apart.Lower your body into a squat position, placing your hands on the ground in front of you.Kick your feet back, landing in a push-up position.Perform a push-up, lowering your chest to the ground and then pushing back up.Jump your feet forward, landing in a squat position.Jump up explosively, reaching your arms overhead.Land softly and immediately lower back into the squat position to begin the next repetition. comment 'more' to get further information.",
+            "Here's a Cardio Exercise: Stand with your feet together and your arms by your sides.Jump up, spreading your feet apart and raising your arms above your head.As you land, quickly jump back to the starting position.Repeat for the desired number of repetitions. comment 'more' to get further information.",
+            "Here's a Cardio Exercise: Hold the handles of the jump rope with your hands, palms facing inward.Stand with your feet shoulder-width apart and knees slightly bent.Swing the rope over your head and jump over it as it comes towards your feet.Land softly on the balls of your feet and repeat the jump as the rope comes around again.Continue jumping for the desired duration or number of repetitions. comment 'more' to get further information.",
+            "Here's a Cardio Exercise: Start in a plank position with your hands on the wheel and your body straight.Engage your core and start rolling the wheel forward by extending your arms.Continue rolling until your body is fully extended and your arms are overhead.Reverse the movement by pulling the wheel back towards your body, using your core and arms.Repeat for the desired number of repetitions. comment 'more' to get further information.",
+            "Here's a Cardio Exercise: Stand with your feet hip-width apart.Lift your right knee up towards your chest as high as you can while balancing on your left leg.Step forward with your right foot and lower your body into a lunge position, bending both knees to a 90-degree angle.Push off with your right foot and bring your left knee up towards your chest.Step forward with your left foot and lower your body into a lunge position.Continue alternating legs and lunging forward, keeping your core engaged and maintaining a steady pace.Repeat for the desired number of repetitions. comment 'more' to get further information."
+        ]
+    },
+    {
+        "tag":"shoulder exercises",
+        "patterns":["suugest some exercise for sholders","exercise for shoulder","shoulder workout","shoulder pain","my shoulder is hurting"],
+        "responses":[
+            "Here's a shoulder workout: Stand with your feet shoulder-width apart and your knees slightly bent.Keep your left hand up to protect your face and your right hand by your chin.Rotate your hips and pivot on your left foot as you extend your left arm forward in a punching motion.Twist your torso and engage your core muscles to generate power in the punch.Snap your arm back to the starting position and repeat for the desired number of repetitions. comment 'more' to get further information.",
+            "Here's a shoulder workout: Start in a kneeling position with your knees hip-width apart and your back straight.Hold a weight in each hand, with your arms extended straight down in front of you.Engage your core and swing the weights up and overhead, keeping your arms straight.Lower the weights back down to the starting position and repeat for the desired number of repetitions. comment 'more' to get further information.",
+            "Here's a shoulder workout: Stand with your feet shoulder-width apart and hold a dumbbell in each hand.Bend your knees slightly and hinge forward at the hips, keeping your back straight.Raise your arms out to the sides, keeping a slight bend in your elbows.Continue lifting your arms until they are parallel to the ground.Pause for a moment at the top, then slowly lower your arms back down to the starting position.Repeat for the desired number of repetitions. comment 'more' to get further information."
+        ]
+    },
+    {
+        "tag":"sample workouts exercises",
+        "patterns":["suggest some exercises","suggest some workouts","name some workouts","name some exercises","exercises","workouts","how can I start bodybuilding","I am interested in training for my body"],
+        "responses":[
+            "Here's a sample exercise: Push-ups: Push-ups are a fundamental bodyweight exercise that strengthens the upper body, core, and improves overall fitness.Start in a plank position with your hands slightly wider than shoulder-width apart, palms flat on the floor.Lower your body towards the floor, keeping your back straight and core engaged.Push back up to the starting position, maintaining a straight line from head to heels. comment 'more' to get further information.",
+            "Here's a sample exercise: Squats: Squats are a fundamental strength exercise where you lower your hips from a standing position, bending your knees and hips, and then stand back up. comment 'more' to get further information.",
+            "Here's a sample exercise: Plank: A plank is an isometric exercise that involves balancing on your forearms and toes while keeping your body off the ground.Place your hands on the floor, slightly wider than your shoulders.Ground your toes into the floor.Squeeze your glutes to stabilize your body.Look at a spot on the floor about a foot in front of your hands.Keep your head in line with your back.Hold the position for 20 seconds. comment 'more' to get further information.",
+            "Here's a sample exercise: Crunch: The crunch is a popular core exercise targeting the rectus abdominis, or 'six-pack' muscles, as well as the obliques. It has been the centerpiece of many ab-focused workouts, due to both its simplicity and the intense burn and mind-muscle connection it produces.It can be performed for time or reps as part of the ab-focused portion of any workout. comment 'more' to get further information."
+        ]
+    },
+    {
+        "tag":"dumbell exercises",
+        "patterns":["suggest some exercises with dumbell","how to use dumbells","dumbells","dumbell","I have dumbells, I don't know what to do with them"],
+        "responses":[
+            "Here's workout with Dumbells: Dumbbell V-Sit Cross Jab: The dumbbell V-sit cross jab is a hybrid movement that trains the abdominal and shoulder muscles simultaneously. It can address multiple muscle groups in a time-efficient muscle-building or circuit-style workout, while also providing a cardiovascular challenge.",
+            "Here's workout with Dumbells: Dumbbell spell caster: The dumbbell spell caster is an exercise that primarily targets the abdominal muscles such as the obliques. However, it also works shoulders, back, hips, and legs, and demands all of those muscles work together in a coordinated motion. It is usually performed with relatively light weights for moderate to high reps, at least 8-12 reps per side. Make sure to only use a weight you can control.",
+            "Here's workout with Dumbells: Dumbbell side bend: The dumbbell side bend is a popular exercise for targeting the oblique muscles of the abdomen. It is usually performed for relatively high reps, at least 8-12 reps per set or more. It can be performed one side at a time or alternating sides.",
+            "Here's workout with Dumbells: Dumbbell crunch: The dumbbell crunch is a more difficult version of a highly popular abdominal movement. The simple addition of a weight makes the crunch far more difficult, providing a different stimulus to the core during training.",
+            "Here's workout with Dumbells: Dumbbell hollow-body floor press: The dumbbell hollow-body floor press combines upper-body strength and core work in one move.",
+            "Here's workout with Dumbells: Double crunch: The double crunch is a bodyweight exercise focused on the muscles of the core, the rectus abdominis or 'six-pack' muscles in particular. It's a very simple exercise that involves 'crunching' the knees and elbows toward each other using the abdominal muscles, while keeping the back flat against the ground."
+        ]
+    },
+    {
+        "tag":"partner exercises",
+        "patterns":["exercises me and my friend can do","exercises for me and my partner","partner workouts","partner exercises"],
+        "responses":[
+            "Here's a Partner workout: Partner front Russian twist and pass: The partner front Russian twist and pass is a weighted version of a popular abdominal training exercise that also utilizes a training partner to add another dynamic component. It targets the oblique muscles, as well as the deep muscles of the core and the rectus abdominis or 'six pack' muscles. It can be done for reps or time in an ab-focused portion of any workout. comment 'more' to get further information.",
+            "Here's a Partner workout: Partner plank band row: The partner plank band row is an abdominal exercise where two partners perform single-arm planks while pulling on the opposite ends of an exercise band. This technique can be done for time or reps in any ab-focused workout.",
+            "Here's a Partner workout: Partner sit-up with high-five: The partner sit-up with high-five is a full-body exercise targeting the core. Partners each perform a sit-up and high-five each other mid rep.",
+            "Here's a Partner workout: Partner lying leg raise with lateral throw down: The partner lying leg raise with lateral throw down is a core exercise in which one partner performs a leg raise while the other partner pushes their legs back down at a lateral angle. The partner performing the exercise has to use core strength and stability to keep their legs from falling to the ground.",
+            "Here's a Partner workout: Partner side plank with leg lift: The partner side plank with leg lift is a core exercise that targets the obliques and the deep muscles of the core. It can be done for time or reps in any ab-focused workout."
+        ]
+    }
+]}
